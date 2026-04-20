@@ -1,12 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Dashboard from './pages/Dashboard';
-import Courses from './pages/Courses';
-import CourseDetail from './pages/CourseDetail';
-import Achievements from './pages/Achievements';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import InstructorDashboard from './pages/InstructorDashboard';
+import LearningGuide from './pages/LearningGuide';
+import ThinkingModel from './pages/ThinkingModel';
+import Controversy from './pages/Controversy';
+import Projects from './pages/Projects';
+import ProjectDetail from './pages/ProjectDetail';
 import Layout from './components/Layout';
 
 function App() {
@@ -15,13 +13,11 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/courses/:id" element={<CourseDetail />} />
-          <Route path="/achievements" element={<Achievements />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/instructor" element={<InstructorDashboard />} />
+          <Route path="/learning-guide" element={<LearningGuide />} />
+          <Route path="/thinking-model" element={<ThinkingModel />} />
+          <Route path="/controversy" element={<Controversy />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDetail />} />
         </Routes>
       </Layout>
     </Router>
