@@ -34,7 +34,7 @@ const LearningGuide: React.FC = () => {
                 <p className="text-gray-600 mb-6">
                   了解数据分析的基本概念、工具和流程，建立对数据分析的整体认知。通过交互式教程，掌握Python数据分析的核心技能。
                 </p>
-                <Link to="/cognitive-model" className="text-blue-600 hover:text-blue-800 font-semibold flex items-center">
+                <Link to="/learning-guide" className="text-blue-600 hover:text-blue-800 font-semibold flex items-center">
                   开始学习引导
                   <span className="ml-2">→</span>
                 </Link>
@@ -72,7 +72,7 @@ const LearningGuide: React.FC = () => {
                 <p className="text-gray-600 mb-6">
                   学习数据分析的思维模型，掌握数据分析的核心方法论。通过实际案例，理解如何用数据思维解决问题。
                 </p>
-                <Link to="/cognitive-model" className="text-green-600 hover:text-green-800 font-semibold flex items-center">
+                <Link to="/thinking-model" className="text-green-600 hover:text-green-800 font-semibold flex items-center">
                   学习思维模型
                   <span className="ml-2">→</span>
                 </Link>
@@ -110,7 +110,7 @@ const LearningGuide: React.FC = () => {
                 <p className="text-gray-600 mb-6">
                   了解数据分析领域的行业争议和前沿话题，培养批判性思维。通过辨析题，加深对数据分析核心概念的理解。
                 </p>
-                <Link to="/industry-disputes" className="text-amber-600 hover:text-amber-800 font-semibold flex items-center">
+                <Link to="/controversy" className="text-amber-600 hover:text-amber-800 font-semibold flex items-center">
                   探索行业争议
                   <span className="ml-2">→</span>
                 </Link>
@@ -149,7 +149,7 @@ const LearningGuide: React.FC = () => {
             完成认知模块后，你将具备数据分析的基本思维和技能，为后续的项目实操做好准备
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link to="/cognitive-model" className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold text-lg">
+            <Link to="/thinking-model" className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold text-lg">
               开始认知模块
             </Link>
             <Link to="/projects" className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-lg font-semibold text-lg">
